@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url('https://t4.ftcdn.net/jpg/06/27/85/69/360_F_627856931_jXu5tya5vYOd3rlP6ObYNOvxyp6xtVLY.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.habit-tracker {
+    width: 60%;
+}
+
+.habit {
+    margin-bottom: 25px;
+}
+
+.checkbox-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background: lightgray;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.streak-text {
+    margin-top: 5px;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+/* Legend styling */
+.legend {
+    width: 30%;
+}
+
+.color-box {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
